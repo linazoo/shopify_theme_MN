@@ -1,0 +1,21 @@
+{
+  "name": "theme_export__muralnomad-com-mural-nomad__10jun2018-1031pm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "slate watch",
+    "start:dev": "slate start --env development",
+    "start:prod": "slate start --env production",
+    "deploy:dev": "slate deploy --env development",
+    "deploy:prod": "slate deploy --env production",
+    "build": "slate build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/slate": "^0.14.0",
+    "npm": "^6.1.0"
+  }
+}
